@@ -1,0 +1,162 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* ArrayAdapterExample1.ucls
+* ArrayAdapterExample2.ucls
+* AsynchronousTaskExample.ucls
+* HTUMLDiagram.uml
+* ObjectAidTest.ucls
+* PackageDiagram.ucls
+* ServerHelper.ucls
+* activity_progress_backup.xml
+* activity_progress_floors_backup.xml
+* ic_launcher-web.png
+* model.di
+* model.notation
+* model.uml
+* my-release-key.keystore
+* php_code/
+* php_code/.checkbadge2.php.swp
+* php_code/acceptrequest.php
+* php_code/acceptrequestnmail.php
+* php_code/badge_img/
+* php_code/badge_img/badge_daily_steps10k.png
+* php_code/badge_img/badge_daily_steps15k.png
+* php_code/badge_img/badge_daily_steps20k.png
+* php_code/badge_img/badge_daily_steps25k.png
+* php_code/badge_img/badge_daily_steps30k.png
+* php_code/badge_img/badge_daily_steps35k.png
+* php_code/badge_img/badge_daily_steps40k.png
+* php_code/badge_img/badge_daily_steps5k.png
+* php_code/buddystep.php
+* php_code/changelog.php
+* php_code/checkbadge1.php
+* php_code/checkbadge2.php
+* php_code/checkbadge3.php
+* php_code/checkbuddy.php
+* php_code/checkbuddy2.php
+* php_code/checkfitbitauth.php
+* php_code/checkgroup.php
+* php_code/checkinvitation.php
+* php_code/checklogin.php
+* php_code/checkmsg.php
+* php_code/checkpending.php
+* php_code/checkregister.php
+* php_code/code_bk/
+* php_code/code_bk/checkbadge1.php
+* php_code/code_bk/checkbadge2.php
+* php_code/code_bk/checkbadge3.php
+* php_code/code_bk/checklogin.php.bk
+* php_code/code_bk/checksteps.php
+* php_code/code_bk/completeAuthorization.php
+* php_code/code_bk/dailysteps.php
+* php_code/code_bk/register.php
+* php_code/code_bk/sendmail.php
+* php_code/code_bk/synch.php
+* php_code/code_bk/synch1.php
+* php_code/code_bk/synch3.php
+* php_code/code_bk/synch4.php
+* php_code/code_bk/test.php
+* php_code/code_bk/updatedb.php
+* php_code/code_bk/updatedb3.php.bk
+* php_code/code_change/
+* php_code/code_change/synch.php
+* php_code/code_change/synch.php.bk
+* php_code/code_change/synch1.php
+* php_code/code_change/synch1.php.bk
+* php_code/code_change/synch3.php.bk
+* php_code/defriend.php
+* php_code/defriend2.php
+* php_code/deletelog.php
+* php_code/getavatar.php
+* php_code/getbadges.php
+* php_code/getbadges3.php
+* php_code/getbuddyinfo.php
+* php_code/getbuddyname.php
+* php_code/getcurrentfloor.php
+* php_code/getcurrentstep.php
+* php_code/getdatefloors.php
+* php_code/getdatesteps.php
+* php_code/getfloorpledge.php
+* php_code/getminutes.php
+* php_code/getmsgs.php
+* php_code/getpeople.php
+* php_code/getstartingdateforgame.php
+* php_code/getsteppledge.php
+* php_code/invitebuddy.php
+* php_code/invitebuddy2.php
+* php_code/minisurvey.php
+* php_code/msgbuddy.php
+* php_code/pokebuddy.php
+* php_code/remindbuddy.php
+* php_code/setavatar.php
+* php_code/setfloorpledge.php
+* php_code/setsteppledge.php
+* php_code/synch.php
+* php_code/synch1.php
+* php_code/synch3.php
+* php_code/synch4.php
+* php_code/synch5.php
+* php_code/updatedb.php
+* php_code/updatedb1.php
+* php_code/updatedb3.php
+* php_code/updatedb5.php
+* pledgebuttonbg.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/CWAC-WakefulIntentService.jar => app/libs/CWAC-WakefulIntentService.jar
+* libs/apache-mime4j-0.6.jar => app/libs/apache-mime4j-0.6.jar
+* libs/commons-codec-1.6.jar => app/libs/commons-codec-1.6.jar
+* libs/commons-logging-1.1.1.jar => app/libs/commons-logging-1.1.1.jar
+* libs/fluent-hc-4.2.5.jar => app/libs/fluent-hc-4.2.5.jar
+* libs/httpclient-4.2.5.jar => app/libs/httpclient-4.2.5.jar
+* libs/httpclient-cache-4.2.5.jar => app/libs/httpclient-cache-4.2.5.jar
+* libs/httpcore-4.2.4.jar => app/libs/httpcore-4.2.4.jar
+* libs/httpmime-4.2.5.jar => app/libs/httpmime-4.2.5.jar
+* libs/loremipsum-1.0.jar => app/libs/loremipsum-1.0.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/ModelAndService.ucls => app/src/main/resources/ModelAndService.ucls
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

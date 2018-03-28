@@ -1,0 +1,192 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Shuttle\\Documents\\Android\\healthytogether\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Shuttle\\Documents\\Android\\healthytogether\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "326"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/src/main/res/values-large/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "752",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1023"
+                    }
+                },
+                {
+                    "source": "/Users/Yaliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ca51c72579e7228686db636f38880a36/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Yaliang\\Dropbox\\++WorkingOn\\+Andriod_Project\\healthytogether\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Yaliang\\Dropbox\\++WorkingOn\\+Andriod_Project\\healthytogether\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "326"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Yaliang/Documents/Android/healthytogether/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Documents/Android/healthytogether/app/src/main/res/values-large/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "326"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/yaliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7836873aef25bb5e3602385ee7ed95ca/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                },
+                {
+                    "source": "/Users/yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/src/main/res/values-large/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "752",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1023"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Yaliang/Google Drive/Programming/Android/healthytogether/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Google Drive/Programming/Android/healthytogether/app/src/main/res/values-large/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "326"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Yaliang\\Downloads\\_+Projects\\healthytogether\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/Documents/Android/healthytogether/C:\\Users\\Yaliang\\Downloads\\_+Projects\\healthytogether\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "326"
+                    }
+                }
+            ]
+        }
+    ]
+}
