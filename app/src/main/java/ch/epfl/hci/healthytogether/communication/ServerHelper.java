@@ -1254,7 +1254,7 @@ public class ServerHelper {
 					retrievedBuddyName = data.substring(splitPoint+1);
 
 					//Log.d("data", "RetrievedBuddyName" + retrievedBuddyName);
-					//Log.i("RetrieveExistingBuddyInfoTask","retrievedBuddyId = " + retrievedBuddyId);
+					//Log.i("fid","retrievedBuddyId = " + retrievedBuddyId);
 					//Log.i("RetrieveExistingBuddyInfoTask", "retrievedBuddyName = " + retrievedBuddyName);
 
 					

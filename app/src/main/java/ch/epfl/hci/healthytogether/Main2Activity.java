@@ -123,11 +123,9 @@ import android.support.v4.app.TaskStackBuilder;*/
  */
 
 public class Main2Activity extends Activity {
-	//Testing the CustomTab
-	//private static final Uri WEB_URL = Uri.parse("http://www.novoda.com");
-
 	//Initializing Variables
-	private int DailyStepGoal;
+	final int virtual_Fid = 5; //The pairing for setting up the participants for self-awareness
+	private int DailyStepGoal; //Ini number for setting the Gray donut (Piechart) in the daily view
 	public static int userTodayStepsCount; // The amount of steps that will be shown in the UI (Piechart). Yaliang
 	BarChart barChart; // The chart for representing the historical data in activity_progress_floor, Yaliang *******
 	private ProgressDialog pd; // Toast UI, showing the progress of loading data to draw charts
@@ -1013,7 +1011,7 @@ Log.d("tab", tv.toString());
 		//updatePledgeAfterSync(1);
 
 
-//Show user name in the header. ********************
+		//Show user name in the header. ********************
 		getUserName();
 
 		//Test
@@ -1060,8 +1058,29 @@ Log.d("tab", tv.toString());
 		//Update the Piechart, Yaliang. ***********************
 		updateDatePanel();
 
-		//updatePieChart(userTodayStepsCount);
-		//Log.d("test", String.valueOf(userTodayStepsCount));
+		//Change the icons & labels of the Chating/Selfloging depends on the buddyID. Yaliang, Apr. 9, 2018
+
+		TextView tvR = (TextView) findViewById(R.id.textViewCheer);
+		TextView tvL = (TextView) findViewById(R.id.textViewTaunt);
+
+//Todo: how to get buddy ID? **********************
+		// RetrieveExistingBuddyInfoTask???
+		//AppContext.getInstance().getFriendId();
+
+		int fid = AppContext.getInstance().getFriendId();
+		Log.d("fid", String.valueOf(fid));
+
+		if(fid != virtual_Fid) {
+			tvR.setText(R.string.cheer_friend);
+			tvL.setText(R.string.taunt_friend);
+		} else {
+			tvR.setText(R.string.selflog_up);
+			tvL.setText(R.string.selflog_down);
+			ImageView selflogbutton = (ImageView) findViewById(R.id.imageButtonTaunt);
+			selflogbutton.setImageDrawable(getResources().getDrawable(
+					R.drawable.yc_thumbdown));
+		};
+
 	}
 
 	public void initHistory() 
@@ -3903,7 +3922,7 @@ Log.d("tab", tv.toString());
 		badgeLevel = prefs.getInt(Constants.PROP_KEY_BADGE_LEVEL, -1);
 		if (userCompletedSteps != -1 && otherCompletedSteps != -1) { // Safe
 																		// check
-			
+
 				
 			if (isDifferentDay(prefs)) 
 			{
@@ -6580,15 +6599,16 @@ Log.d("tab", tv.toString());
 	public void load_data_draw_barchart() {
 		pd.show();
 		final int uid = AppContext.getInstance().getUserId();
-		final int fid = getFriendId();// AppContext.getInstance().getFriendId();
+		final int fid = AppContext.getInstance().getFriendId();
 
 		//reach.id.tue.nl
 		Log.d("**Fid", String.valueOf(fid));
+		Log.d("**Fid", String.valueOf(virtual_Fid));
 		String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps_history_json.php?uid=" + uid;
-			if ( fid != 0 || fid != 5){
+			if ( fid != virtual_Fid){
 				url = url + "&fid=" + fid;
 			}
-		Log.d("**URL", url);
+		Log.d("**fid url", url);
 		final ArrayList xAxis1 = new ArrayList<>();
 		yAxis = null;
 		yValues = new ArrayList<>();
@@ -6658,27 +6678,30 @@ Log.d("tab", tv.toString());
 						//barChart.setMaxVisibleValueCount(20);
 
 						//------------ Set the Legend, https://github.com/PhilJay/MPAndroidChart/wiki/Legend
-						Legend legend = barChart.getLegend(); //Todo: why the buddy's name couldn't display ????????????????????????
-						legend.setTextSize(20f);
-						legend.setXEntrySpace(20f);
-						legend.setHorizontalAlignment(Legend.LegendHorizontalAlignment.CENTER);
-						legend.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
-						//legend.setEnabled(true);
-						//legend.setVerticalAlignment(true);
-						// -------------
-						Log.d("data", Constants.userName);
-						//showBuddyName(AppContext.getInstance().getFriendId());
-						//setBuddyName(Constants.buddyName)
-						Log.d("data", "test" + Constants.buddyName);
 						BarDataSet barDataSet1 = new BarDataSet(yValues, "");
-						if (fid != 0) {
+							Legend legend = barChart.getLegend(); //Todo: why the buddy's name couldn't display ????????????????????????
+
+						if (fid != virtual_Fid) {
+							legend.setEnabled(true);
+								legend.setTextSize(20f);
+							legend.setXEntrySpace(20f);
+							legend.setHorizontalAlignment(Legend.LegendHorizontalAlignment.CENTER);
+							legend.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+							//legend.setEnabled(true);
+							//legend.setVerticalAlignment(true);
+							// -------------
+							//Log.d("data", Constants.userName);
+							//showBuddyName(AppContext.getInstance().getFriendId());
+							//setBuddyName(Constants.buddyName)
+							//Log.d("data", "test" + Constants.buddyName);
+
 							barDataSet1.setColors(new int[]{Color.rgb(100, 67, 200), Color.rgb(152, 192, 162)});
 							barDataSet1.setStackLabels(new String[]{
 									Constants.userName, Constants.buddyName
 							});
 						} else {
+							legend.setEnabled(false);
 							barDataSet1.setColor(Color.rgb(0, 82, 159));
-
 						}
 
 						//------------- Interaction
@@ -6764,7 +6787,7 @@ Log.d("tab", tv.toString());
 
 	public void Load_data_draw_Piechart(int datePivot) {
 		//--Initialize Variables
-		DailyStepGoal = 10000; //todo: this should be a number retrieved from DB. Yaliang *********************
+		DailyStepGoal = 5000; //todo: this should be a number retrieved from DB. Yaliang *********************
 		pieChart = (PieChart) findViewById(R.id.chart);
 		entries = new ArrayList<PieEntry>();
 
@@ -6899,119 +6922,6 @@ Log.d("tab", tv.toString());
 	}
 
 
-	//Todo: How to sync the data??????????????????????? Yaliang
-	public void ToSyncFitbitData(){
-
-		RequestQueue queue = Volley.newRequestQueue(this);
-		final int uid = AppContext.getInstance().getUserId();
-		//reach.id.tue.nl
-		String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/00_test.php?uid=" + uid;
-		//url=url + "&offset=" + datePivot;
-		Log.d("SYNC_Data_CHECK", url);
-
-		StringRequest stringRequest = new StringRequest(Request.Method.POST,
-				url,
-
-				new Response.Listener<String>() {
-					@Override
-					public void onResponse(String response) {
-						Log.d("SYNC_Data_CHECK",response);
-
-						try {
-							String responseStr = response;
-							Log.d("SYNC_Data_CHECK",responseStr);
-
-							if (responseStr.startsWith("OK")) {
-								responseStr = Utils.dataCheck(responseStr);
-								String str = responseStr.substring(2).split(",")[0];
-								//return true;
-							}
-						} catch (Exception e) {
-							Log.e("SYNC_Data_CHECK",
-									"Error in http connection " + e.toString());
-							//return false;
-						}
-
-					}
-
-				},
-				new Response.ErrorListener() {
-					@Override
-					public void onErrorResponse(VolleyError error) {
-						if(error != null){
-							//Toast.makeText(this, "Sorry, something went wrong. Please try again latter.", Toast.LENGTH_LONG).show();
-							Log.d("SYNC_Data_CHECK", "VolleyError");
-						}
-					}
-				}
-		);
-		queue.add(stringRequest);
-
-	}
-
-	//Todo: How to open Customtab???????????????????????
-//Testing the CustomTab with the Ref: https://github.com/novoda/simple-chrome-custom-tabs
-private final NavigationFallback navigationFallback = new NavigationFallback() {
-	@Override
-	public void onFallbackNavigateTo(Uri url) {
-		//Toast.makeText(getApplicationContext(), R.string.application_not_found, Toast.LENGTH_SHORT).show();
-
-		Intent intent = new Intent(Intent.ACTION_VIEW)
-				.setData(url)
-				.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		startActivity(intent);
-	}
-};
-
-	@Override
-	protected void onRestart() {
-		super.onRestart();
-		//Toast.makeText(this, "onRestart", Toast.LENGTH_LONG).show();
-//Todo: how to update the Database and show the "Welcome page" when the the Activity is starting? *************
-//Ref:https://litotom.com/2017/05/25/ch5-4-activity-lifecycle/
-		//The following code will looping to open the custom tab.
-/*
-		Button btn;
-		btn = (Button)findViewById(R.id.btn_update_data);
-		btn.performClick();
-		*/
-	}
-
-
-	public void onLaunchCustomTabClicked(View view){
-		final int uid = AppContext.getInstance().getUserId();
-		final int fid = AppContext.getInstance().getFriendId();
-		//String url = "https://reach.bitnamiapp.com/php_HT/00_test.php?uid=1&fid=2"
-		//reach.id.tue.nl
-		final String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/00_test.php?uid="+uid+"&fid="+fid;
-Log.d("data", url);
-
-		Uri WEB_URL = Uri.parse(url);
-
-		SimpleChromeCustomTabs.getInstance().withFallback(navigationFallback)
-				.navigateTo(WEB_URL, this);
-		/*
-		String url = "https://www.google.com";
-		CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-		CustomTabsIntent customTabsIntent = builder.build();
-		//customTabsIntent.warmup(50)
-		customTabsIntent.launchUrl(this, Uri.parse(url));
-*/
-		/*
-		if(Utils.isConnectionPresent(Main2Activity.this))
-		{
-		final CustomTabsIntent intent = new CustomTabsIntent.Builder().build();
-		//CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-		final String url = "https://reach.bitnamiapp.com/php_HT/00_test.php?uid=1&fid=2";
-		intent.launchUrl(this, Uri.parse(url));
-		}
-		else
-		{
-			isDisplayingConnectionErrorDialog = false;
-			displayConnectionErrorMessage();
-		}
-		*/
-	}
 
 
 }

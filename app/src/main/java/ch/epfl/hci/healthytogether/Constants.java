@@ -1,5 +1,14 @@
 package ch.epfl.hci.healthytogether;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.os.SystemClock;
+import android.util.Log;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -11,14 +20,6 @@ import java.util.regex.Pattern;
 import ch.epfl.hci.happytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CancelPledgesTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SendTimelyLogTask;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.NotificationManager;
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.os.SystemClock;
-import android.util.Log;
 
 public class Constants {
 
@@ -31,6 +32,7 @@ public class Constants {
 	public static final String PROPERTIES_NAME = "ch.epfl.hci.healthytogether.prefs";
 	public static final String PROP_KEY_AUTHORIZED = "fitbit_authorized";
 	public static final String PROP_KEY_USER_ID = "user_id";
+	public static final String PROP_KEY_FRIEND_ID = "friend_id";
 	public static final String PROP_KEY_EMAIL = "email";
 	public static final String PROP_KEY_PASSWORD = "pwd";
 	public static final String PROP_KEY_UNAME = "uname";

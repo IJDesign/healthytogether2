@@ -2,6 +2,7 @@
 <resources>
 
     <!-- Visualization, Yaliang, Jan.23, 2018-->
+    <!-- Change the texts into Dutch for those below -->
     <string name="dailyview_a">you have taken</string>
     <string name="dailyview_o">on</string>
     <string name="dailyview_t">today</string>
@@ -13,6 +14,15 @@
     <string name="historyview_b">you took</string>
     <string name="historyview_c">steps</string>
     <string name="historyview_ini">Overview of how much you have been moving.</string>
+    <string name="title_activity_select_cheer_template">Cheer Friend</string>
+    <string name="title_activity_select_taunt_template">Taunt Friend</string>
+    <string name="title_activity_select_selflog_thumbup_template">XX</string>
+    <string name="title_activity_select_selflog_thumbdown_template">XX X</string>
+    <string name="cheer_friend">Cheer\nFriend</string>
+    <string name="taunt_friend">Taunt\nFriend</string>
+    <string name="selflog_up">Thumb Up</string>
+    <string name="selflog_down">Thumb Down</string>
+    <!-- End of the translation -->
     <!-- baseURL: reach.id.tue.nl , reach.bitnamiapp.com -->
     <string name="baseurl">reach.id.tue.nl</string>
 
@@ -27,9 +37,7 @@
     <string name="title_activity_main">Healthy Together</string>    
     <string name="title_activity_authenticate_fitbit">Authorization</string>
     <string name="title_activity_accept_buddy">Game Request</string>
-    <string name="title_activity_pending_buddy_request">Remind Buddy</string>    
-    <string name="title_activity_select_cheer_template">Cheer Friend</string>
-    <string name="title_activity_select_taunt_template">Taunt Friend</string>
+    <string name="title_activity_pending_buddy_request">Remind Buddy</string>
     <string name="title_activity_invite_buddy">Invite Buddy</string>
     <string name="title_activity_main2">Healthy Together</string>    
     <string name="title_activity_compose_message">Compose Message</string>    
@@ -54,8 +62,7 @@
     <string name="floors_until_next_badge">Your floor score </string>
     <string name="until_next_badge">until next badge</string>
     <string name="my_badges">My Badges</string>
-    <string name="cheer_friend">Cheer\nFriend</string>
-    <string name="taunt_friend">Taunt\nFriend</string>
+
     
     <string name="pledge_confirm_title">Confirm Your Pledge</string>
     <string name="pledge_confirm_content_step">You are about to pledge</string>

@@ -87,7 +87,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
@@ -98,12 +97,8 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/sourceFolderJavaResources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
@@ -116,32 +111,32 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/commons-logging-1.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/httpcore-4.2.4.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.mcxiaoke.volley:library:1.0.19@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/httpmime-4.2.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/CWAC-WakefulIntentService.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/commons-codec-1.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-media-compat-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:customtabs-25.0.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/apache-mime4j-0.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/httpclient-4.2.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.3.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/commons-logging-1.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/CWAC-WakefulIntentService.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/fluent-hc-4.2.5.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/httpclient-cache-4.2.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.novoda:notils:2.2.13@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/httpmime-4.2.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.github.PhilJay:MPAndroidChart:v3.0.3@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/loremipsum-1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.novoda:simple-chrome-custom-tabs-0.1.5" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/httpclient-cache-4.2.5.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/loremipsum-1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-25.3.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/commons-codec-1.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/httpcore-4.2.4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/httpclient-4.2.5.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/libs/apache-mime4j-0.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/libs/fluent-hc-4.2.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:25.3.1@jar" level="project" />
   </component>
 </module>

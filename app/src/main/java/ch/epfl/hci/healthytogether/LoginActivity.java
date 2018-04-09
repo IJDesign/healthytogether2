@@ -115,7 +115,7 @@ public class LoginActivity extends Activity {
 			Constants.loggedIn = false;
 			setContentView(R.layout.activity_login);
 			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-			setupActionBar();
+	//		setupActionBar(); // Disable, due to the unknown bug while switching to Dutch.
 
 			
 			// Set up the login form.
@@ -230,13 +230,7 @@ public class LoginActivity extends Activity {
 	 * 
 	 * Set up the {@link android.app.ActionBar}, if the API is available.
 	 */
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	private void setupActionBar() {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			// Show the Up button in the action bar.
-			getActionBar().setDisplayHomeAsUpEnabled(true);
-		}
-	}
+
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {

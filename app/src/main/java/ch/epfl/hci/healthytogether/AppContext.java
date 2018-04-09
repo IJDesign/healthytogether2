@@ -1,9 +1,10 @@
 package ch.epfl.hci.healthytogether;
 
-import ch.epfl.hci.happytogether.App;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+
+import ch.epfl.hci.happytogether.App;
 
 /**
  * Global data storage, to prevent passing this data around via intent extras
@@ -39,11 +40,19 @@ public class AppContext {
 	}
 
 	public int getFriendId() {
-		return mFriendId;
+		Context context = App.getInstance().getApplicationContext();
+		SharedPreferences prefs = context.getSharedPreferences(
+				Constants.PROPERTIES_NAME, Context.MODE_PRIVATE);
+		return prefs.getInt(Constants.PROP_KEY_FRIEND_ID, -1);
 	}
 
 	public void setFriendId(int friendId) {
-		mFriendId = friendId;
+		Context context = App.getInstance().getApplicationContext();
+		SharedPreferences prefs = context.getSharedPreferences(
+				Constants.PROPERTIES_NAME, Context.MODE_PRIVATE);
+		Editor editor = prefs.edit();
+		editor.putInt(Constants.PROP_KEY_FRIEND_ID, friendId);
+		editor.commit();
 	}
 
 	public void setUserId(int userId) {

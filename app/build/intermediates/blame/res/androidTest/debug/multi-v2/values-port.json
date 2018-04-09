@@ -16,6 +16,21 @@
             ]
         },
         {
+            "outputFile": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/Yaliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/ca51c72579e7228686db636f38880a36/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

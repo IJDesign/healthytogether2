@@ -38,6 +38,7 @@ import ch.epfl.hci.healthytogether.model.MessageMeta;
 import ch.epfl.hci.healthytogether.util.Utils;
 
 public class MessagesActivity extends Activity {
+	final int virtual_Fid = 5; //The pairing for setting up the participants for self-awareness
 
 	boolean isCheer;
 
@@ -583,10 +584,20 @@ public class MessagesActivity extends Activity {
 		if (id == 5) {
 			boolean doCheer = getIntent().getBooleanExtra("cheer", true);
 			final String[] listItems;
+			int fid = AppContext.getInstance().getFriendId();
+			Log.d("template fid", String.valueOf(fid));
 			if (doCheer) {
-				listItems = getResources().getStringArray(R.array.cheerTemplates);//Constants.cheerTemplates; // TODO: replace!!!!
+				if(fid != virtual_Fid){
+					listItems = getResources().getStringArray(R.array.cheerTemplates);//Constants.cheerTemplates; // TODO: replace!!!!
+				} else {
+					listItems = getResources().getStringArray(R.array.selflog_thumbup_Templates);//Constants.cheerTemplates; // TODO: replace!!!!
+				}
 			} else {
-				listItems = getResources().getStringArray(R.array.tauntTemplates); // TODO: replace!!!
+				if(fid != virtual_Fid){
+					listItems = getResources().getStringArray(R.array.tauntTemplates);//Constants.cheerTemplates; // TODO: replace!!!!
+				} else {
+					listItems = getResources().getStringArray(R.array.selflog_thumbdown_Templates);//Constants.cheerTemplates; // TODO: replace!!!!
+				}
 			}
 			final boolean[] itemsChecked = new boolean[listItems.length];
 			for (int j = 0; j < itemsChecked.length; j++) {

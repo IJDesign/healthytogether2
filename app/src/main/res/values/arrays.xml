@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>  
-<resources>  
-    
+<resources>
+    <!-- Change the texts into Dutch for those below
+    <array name="cheerTemplates">
+        <item>We can make it! Rise up!</item>
+        <item>We are doing quite well. Let\&apos;s finish this off!</item>
+        <item>We can earn a badge real soon. Let\&apos;s go for a walk!</item>
+    </array>
+
+    <array name="tauntTemplates">
+        <item>Haha, I\&apos;m walking more steps than you. Better catch up!</item>
+        <item>Who\&apos;s slow now? Try catching up!</item>
+        <item>Come on! Is that all you got? You can do better!</item>
+    </array>
+
+    <array name="selflog_thumbup_Templates">
+        <item>Template 1</item>
+        <item>Template 2</item>
+        <item>Template 3</item>
+    </array>
+
+    <array name="selflog_thumbdown_Templates">
+        <item>Template 1</item>
+        <item>Template 2</item>
+        <item>Template 3</item>
+    </array>
+    -->
+    <!--Todo: how to produce multiple language version?-->
+    <array name="cheerTemplates">
+        <item>Wij kunnen dit! Zet hem op!</item>
+        <item>Wij zijn goed bezig!\&apos;s Laten we het af maken!</item>
+        <item>Bijna ons doel berijkt.\&apos;s Laten we een wandeling maken!</item>
+    </array>
+
+    <array name="tauntTemplates">
+        <item>Moet je zien wat ik heb gelopen!\&apos;m Haal je me nog in?</item>
+        <item>Je doet well rustig aan zeg. Laat zien wat je kan!</item>
+        <item>Ik weet dat je meer kan! Zet hem op!</item>
+    </array>
+
+    <array name="selflog_thumbup_Templates">
+        <item>Kaartje 1</item>
+        <item>Kaartje 2</item>
+        <item>Kaartje 3</item>
+    </array>
+
+    <array name="selflog_thumbdown_Templates">
+        <item>Kaartje 1</item>
+        <item>Kaartje 2</item>
+        <item>Kaartje 3</item>
+    </array>
+
+    <!-- End of the translation -->
+
     <array name="positiveMoodTemplates">
         <item>Amused</item>  
 	    <item>Happy</item>  
@@ -113,22 +164,8 @@
     <array name="socialTemplates">
          <item>Alone</item>
          <item>Together</item>
-    </array>    
-     
-    
-    <array name="cheerTemplates">
-        <item>We can make it! Rise up!</item>
-        <item>We are doing quite well. Let\&apos;s finish this off!</item>
-        <item>We can earn a badge real soon. Let\&apos;s go for a walk!</item>
     </array>
-    
-    <array name="tauntTemplates">
-        <item>Haha, I\&apos;m walking more steps than you. Better catch up!</item>
-        <item>Who\&apos;s slow now? Try catching up!</item>
-        <item>Come on! Is that all you got? You can do better!</item>
-        
-    </array>
-    
+
     <string-array name="pledge_amount">
         <item>2,000</item>
         <item>5,000</item>

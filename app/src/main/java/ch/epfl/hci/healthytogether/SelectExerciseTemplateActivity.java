@@ -1,6 +1,5 @@
 package ch.epfl.hci.healthytogether;
 
-import ch.epfl.hci.happytogether.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -14,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import ch.epfl.hci.happytogether.R;
 
 /**
  * 

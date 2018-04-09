@@ -77,7 +77,7 @@
 
         <EditText
             android:id="@+id/typeMessage"
-            android:layout_width="200dp"
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_marginLeft="2dp"
