@@ -1151,8 +1151,10 @@ Log.d("tab", tv.toString());
 		String dayOfTheWeek = sdf.format(d);
 		String dateString = datef.format(d);*/
 
+		//Todo: check the date of the availability of data
 		// Check if "the previous day" is valid with respect to game acceptance
 		// date
+
 		int dayBefore = gc.get(Calendar.DAY_OF_YEAR);
 		gc.roll(Calendar.DAY_OF_YEAR, -1);
 

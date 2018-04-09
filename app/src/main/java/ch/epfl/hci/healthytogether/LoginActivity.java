@@ -1,6 +1,31 @@
 package ch.epfl.hci.healthytogether;
 
-import java.util.ArrayList;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.content.pm.ActivityInfo;
+import android.os.AsyncTask;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.inputmethod.EditorInfo;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -12,46 +37,12 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
-import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.content.pm.ActivityInfo;
-import android.os.AsyncTask;
-import android.os.Build;
-import android.os.Bundle;
-import android.support.v4.app.NavUtils;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.TaskStackBuilder;
-import android.text.Spannable;
-import android.text.TextUtils;
-import android.text.style.BackgroundColorSpan;
-import android.util.Log;
-import android.view.KeyEvent;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import java.util.ArrayList;
+
 import ch.epfl.hci.happytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper;
-import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
-import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyEMailTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyEMailTask2;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SendPasswordReminderTask;
-import ch.epfl.hci.healthytogether.service.CheckForMessageService;
 import ch.epfl.hci.healthytogether.util.Utils;
 
 /**
@@ -115,7 +106,7 @@ public class LoginActivity extends Activity {
 			Constants.loggedIn = false;
 			setContentView(R.layout.activity_login);
 			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-	//		setupActionBar(); // Disable, due to the unknown bug while switching to Dutch.
+			// setupActionBar(); // Disable, due to the unknown bug while switching to Dutch. Yaliang, April,9.2018.
 
 			
 			// Set up the login form.
@@ -230,7 +221,13 @@ public class LoginActivity extends Activity {
 	 * 
 	 * Set up the {@link android.app.ActionBar}, if the API is available.
 	 */
-
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+	private void setupActionBar() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+			// Show the Up button in the action bar.
+			getActionBar().setDisplayHomeAsUpEnabled(true);
+		}
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
