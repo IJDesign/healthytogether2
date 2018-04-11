@@ -259,11 +259,11 @@ public class Main2Activity extends Activity {
 				// Toast.makeText(Main2Activity.this,
 				// "No internet connection. Please check your connection.",
 				// Toast.LENGTH_LONG).show();
-				connectionErrorReceived = true;
+				//connectionErrorReceived = true;
 
-				updateBadgesWithSync(true);
+				//updateBadgesWithSync(true);
 
-				displayConnectionErrorMessage();
+				//displayConnectionErrorMessage();
 			} else {
 
 				Constants.checkUserName();
@@ -309,9 +309,9 @@ public class Main2Activity extends Activity {
 								}
 
 								// New message
-								// notifyBuddyChangeMessage(msg);
+								//notifyBuddyChangeMessage(msg);
 
-								displayBuddyChangeDialog(msg);
+								//displayBuddyChangeDialog(msg);
 
 								break;
 							case RESPONSE_INCOMING_REQUEST_PENDING:
@@ -755,8 +755,28 @@ public class Main2Activity extends Activity {
 
 		initHistory();
 
+		//Change the icons & labels of the Chating/Selfloging depends on the buddyID. Yaliang, Apr. 9, 2018
+		// Get the FrindID and change the UI accordingly.
 
+		LinearLayout tauntcheerbuttonContainer = (LinearLayout) findViewById(R.id.tauntcheer_buttons);
+		TextView tvR = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewCheer);
+		TextView tvL = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewTaunt);
 
+		int fid = AppContext.getInstance().getFriendId();
+
+		if(fid != virtual_Fid) {
+			tvR.setText(R.string.cheer_friend);
+			tvL.setText(R.string.taunt_friend);
+			Log.d("fid**1", String.valueOf(fid));
+		} else {
+			tvR.setText(R.string.selflog_up);
+			tvL.setText(R.string.selflog_down);
+			Log.d("fid**2", String.valueOf(fid));
+			ImageView selflogbutton = (ImageView) tauntcheerbuttonContainer.findViewById(R.id.imageButtonTaunt);
+			selflogbutton.setImageDrawable(getResources().getDrawable(
+					R.drawable.yc_thumbdown));
+
+		};
 
 		// ///////////// ASMA PLEDGING START
 
@@ -826,7 +846,6 @@ public class Main2Activity extends Activity {
 		View cv;
 
 		for (int i = 0; i < tab_host.getTabWidget().getChildCount(); i++) {
-
 			if (i == 1) {
 				// Log.d(TAG,"ONUR, TABS " + i +
 				// ": appyling  mytab_roundedcorners2");
@@ -847,7 +866,9 @@ public class Main2Activity extends Activity {
 				LinearLayout.LayoutParams currentLayout = (LinearLayout.LayoutParams) cv
 						.getLayoutParams();
 				currentLayout.setMargins(0, 2, 5, 0);
+
 			}
+
 /*
 			cv = tab_host.getTabWidget().getChildAt(i);
 			LinearLayout.LayoutParams currentLayout = (LinearLayout.LayoutParams) cv
@@ -880,6 +901,7 @@ Log.d("tab", tv.toString());
 		tab_host.setOnTabChangedListener(new OnTabChangeListener(){
 			@Override
 			public void onTabChanged(String tabId) {
+
 			    if(tabId.equals("Steps")|| tabId.equals(getResources().getString(R.string.steps_tab))) {
 			    	//Yaliang: Show the daily data, ************************************************
 			    	//if(time2refresh(lastRefStepL))
@@ -902,7 +924,6 @@ Log.d("tab", tv.toString());
 					load_data_draw_barchart();
 					//ToSyncFitbitData();
 					//barChart.setOnChartValueSelectedListener(this);
-
 
 //-------- Get the step value and show in the summary text on the top. Yaliang. *****
 					//## Todo: how to show different name (user or buddy) by clicking different bar????????? ******************************
@@ -976,6 +997,9 @@ Log.d("tab", tv.toString());
 					});
 			    	//updatePledgeProgressBar(1);
 			    }
+
+
+
 			}});
 		
 		tab_host.setCurrentTab(Constants.VIEW_STEPS ? 0 : 1);
@@ -1057,29 +1081,6 @@ Log.d("tab", tv.toString());
 
 		//Update the Piechart, Yaliang. ***********************
 		updateDatePanel();
-
-		//Change the icons & labels of the Chating/Selfloging depends on the buddyID. Yaliang, Apr. 9, 2018
-
-		TextView tvR = (TextView) findViewById(R.id.textViewCheer);
-		TextView tvL = (TextView) findViewById(R.id.textViewTaunt);
-
-//Todo: how to get buddy ID? **********************
-		// RetrieveExistingBuddyInfoTask???
-		//AppContext.getInstance().getFriendId();
-
-		int fid = AppContext.getInstance().getFriendId();
-		Log.d("fid", String.valueOf(fid));
-
-		if(fid != virtual_Fid) {
-			tvR.setText(R.string.cheer_friend);
-			tvL.setText(R.string.taunt_friend);
-		} else {
-			tvR.setText(R.string.selflog_up);
-			tvL.setText(R.string.selflog_down);
-			ImageView selflogbutton = (ImageView) findViewById(R.id.imageButtonTaunt);
-			selflogbutton.setImageDrawable(getResources().getDrawable(
-					R.drawable.yc_thumbdown));
-		};
 
 	}
 
@@ -6604,13 +6605,13 @@ Log.d("tab", tv.toString());
 		final int fid = AppContext.getInstance().getFriendId();
 
 		//reach.id.tue.nl
-		Log.d("**Fid", String.valueOf(fid));
-		Log.d("**Fid", String.valueOf(virtual_Fid));
+		//Log.d("**Fid", String.valueOf(fid));
+		//Log.d("**Fid", String.valueOf(virtual_Fid));
 		String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps_history_json.php?uid=" + uid;
 			if ( fid != virtual_Fid){
 				url = url + "&fid=" + fid;
 			}
-		Log.d("**fid url", url);
+		//Log.d("**fid url", url);
 		final ArrayList xAxis1 = new ArrayList<>();
 		yAxis = null;
 		yValues = new ArrayList<>();
@@ -6723,7 +6724,7 @@ Log.d("tab", tv.toString());
 						xAxis.setTextSize(14f); //Todo: Are the text big enough????????????????
 						//String names[]= xAxis1.toArray(new String[xAxis1.size()]);
 						xAxis.setValueFormatter(new IndexAxisValueFormatter(xAxis1));
-
+						barChart.setExtraBottomOffset(8);
 
 						yAxis = new ArrayList<>();
 						yAxis.add(barDataSet1);

@@ -19,26 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!--
-         <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/my_game"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/light_blue" /> -->
-
-
-        <!--
-         <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">        -->
-
-        <!-- </RelativeLayout> -->
-
-
-        <!-- My Logs -->
-
         <RelativeLayout
             android:id="@+id/task_edit_panel"
             android:layout_width="fill_parent"
@@ -419,6 +399,92 @@
 
         </RelativeLayout>
 
-    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/badgebg"
+            android:orientation="vertical"
+            android:padding="10px"
+            android:theme="@style/TabWidgetTheme">
+
+            <LinearLayout
+                android:id="@+id/tauntcheer_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButtonTaunt"
+                    android:layout_width="20dp"
+                    android:layout_height="54dp"
+
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onTauntButtonClicked"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/yc_taunt" />
+
+                <TextView
+                    android:id="@+id/textViewTaunt"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/imageButtonCheer"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:onClick="onTauntButtonClicked"
+                    android:text="@string/taunt_friend"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"
+                    android:onClick="onLauchCustomTab" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonCheer"
+                    android:layout_width="15dp"
+                    android:layout_height="54dp"
+                    android:layout_gravity="top|right|center_vertical"
+                    android:layout_toLeftOf="@id/textViewTaunt"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onCheerButtonClicked"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/yc_cheer" />
+
+                <TextView
+                    android:id="@+id/textViewCheer"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:onClick="onCheerButtonClicked"
+                    android:text="@string/cheer_friend"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+     </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
