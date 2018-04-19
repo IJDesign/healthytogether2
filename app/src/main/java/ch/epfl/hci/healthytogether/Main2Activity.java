@@ -755,28 +755,6 @@ public class Main2Activity extends Activity {
 
 		initHistory();
 
-		//Change the icons & labels of the Chating/Selfloging depends on the buddyID. Yaliang, Apr. 9, 2018
-		// Get the FrindID and change the UI accordingly.
-
-		LinearLayout tauntcheerbuttonContainer = (LinearLayout) findViewById(R.id.tauntcheer_buttons);
-		TextView tvR = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewCheer);
-		TextView tvL = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewTaunt);
-
-		int fid = AppContext.getInstance().getFriendId();
-
-		if(fid != virtual_Fid) {
-			tvR.setText(R.string.cheer_friend);
-			tvL.setText(R.string.taunt_friend);
-			Log.d("fid**1", String.valueOf(fid));
-		} else {
-			tvR.setText(R.string.selflog_up);
-			tvL.setText(R.string.selflog_down);
-			Log.d("fid**2", String.valueOf(fid));
-			ImageView selflogbutton = (ImageView) tauntcheerbuttonContainer.findViewById(R.id.imageButtonTaunt);
-			selflogbutton.setImageDrawable(getResources().getDrawable(
-					R.drawable.yc_thumbdown));
-
-		};
 
 		// ///////////// ASMA PLEDGING START
 
@@ -1081,6 +1059,30 @@ Log.d("tab", tv.toString());
 
 		//Update the Piechart, Yaliang. ***********************
 		updateDatePanel();
+
+		//Change the icons & labels of the Chating/Selfloging depends on the buddyID. Yaliang, Apr. 9, 2018
+		// Get the FrindID and change the UI accordingly.
+
+		LinearLayout tauntcheerbuttonContainer = (LinearLayout) findViewById(R.id.tauntcheer_buttons);
+		TextView tvR = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewCheer);
+		TextView tvL = (TextView) tauntcheerbuttonContainer.findViewById(R.id.textViewTaunt);
+
+		int fid = AppContext.getInstance().getFriendId();
+		Log.d("fid**0", String.valueOf(fid));
+
+		if(fid != virtual_Fid) {
+			tvR.setText(R.string.cheer_friend);
+			tvL.setText(R.string.taunt_friend);
+			Log.d("fid**1", String.valueOf(fid));
+		} else {
+			tvR.setText(R.string.selflog_up);
+			tvL.setText(R.string.selflog_down);
+			Log.d("fid**2", String.valueOf(fid));
+			ImageView selflogbutton = (ImageView) tauntcheerbuttonContainer.findViewById(R.id.imageButtonTaunt);
+			selflogbutton.setImageDrawable(getResources().getDrawable(
+					R.drawable.yc_thumbdown));
+
+		};
 
 	}
 

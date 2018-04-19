@@ -15,13 +15,17 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="fid" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9e0292-7732-4efb-bc19-c07322e9a431" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug (admins-Mac-mini.local's conflicted copy 2018-03-07).apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/reach-selfawareness" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/reach.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -30,37 +34,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskhistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskhistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/happytogether/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/AcceptBuddyActivity$9$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/AcceptBuddyActivity$9$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/AcceptBuddyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/AcceptBuddyActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/DiscussArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/DiscussArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/ExerciseCategory$MyCustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/ExerciseCategory$MyCustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Leaderboard.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Leaderboard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$12$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$12$1.class" />
@@ -118,53 +91,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/Main2Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$11$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$11$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MainActivityCommunity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MessagesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MessagesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MoodArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/MoodArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/PendingBuddyRequestActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/PendingBuddyRequestActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/RegisterActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/SedentaryCategory$MyCustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ch/epfl/hci/healthytogether/SedentaryCategory$MyCustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/novoda/simplechromecustomtabs/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/novoda/simplechromecustomtabs/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/OI9yUNGREZSdA79ev7GMxDZ8O5o=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/OI9yUNGREZSdA79ev7GMxDZ8O5o=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_progress.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_progress.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_progress_floors.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_progress_floors.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/android/support/constraint/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/android/support/constraint/R$id.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/android/support/v7/appcompat/R$id.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$id.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$integer.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$layout.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$menu.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$menu.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$string.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$style.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$styleable.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$xml.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/happytogether/R$xml.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/AcceptBuddyActivity$9$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/AcceptBuddyActivity$9$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/AcceptBuddyActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/AcceptBuddyActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/DiscussArrayAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/DiscussArrayAdapter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/ExerciseCategory$MyCustomAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/ExerciseCategory$MyCustomAdapter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Leaderboard.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Leaderboard.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$2.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$3.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$4.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$5$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$5$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$5.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$6.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$7.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$8.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$8.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity$UserLoginTask.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/LoginActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1$1$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$1.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$10.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$10.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$11.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$11.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$12$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$12$1.dex" />
@@ -222,35 +148,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$9.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$9.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$ViewHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity$ViewHolder.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/Main2Activity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$11$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$11$2$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$11.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$11.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$6.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity$7.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MainActivityCommunity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MessagesActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MessagesActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MoodArrayAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/MoodArrayAdapter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/PendingBuddyRequestActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/PendingBuddyRequestActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/RegisterActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/RegisterActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/SedentaryCategory$MyCustomAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/ch/epfl/hci/healthytogether/SedentaryCategory$MyCustomAdapter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/com/novoda/simplechromecustomtabs/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/930/com/novoda/simplechromecustomtabs/R$id.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/133/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/133/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/debug/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/ch/epfl/hci/happytogether/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/ch/epfl/hci/happytogether/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/novoda/simplechromecustomtabs/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/novoda/simplechromecustomtabs/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ch/epfl/hci/healthytogether/Main2Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ch/epfl/hci/healthytogether/Main2Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_progress.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_progress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_progress_floors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_progress_floors.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -294,17 +197,13 @@
       <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ch/epfl/hci/healthytogether/Main2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="6718" column="54" lean-forward="true" selection-start-line="6718" selection-start-column="54" selection-end-line="6718" selection-end-column="54" />
+            <state relative-caret-position="93">
+              <caret line="1061" column="0" lean-forward="true" selection-start-line="1061" selection-start-column="0" selection-end-line="1061" selection-end-column="0" />
               <folding>
-                <element signature="e#9935#9943#0" expanded="true" />
-                <element signature="e#12775#12784#0" expanded="true" />
-                <element signature="e#14002#14010#0" expanded="true" />
-                <element signature="e#19199#19208#0" expanded="true" />
-                <element signature="e#80561#80569#0" expanded="true" />
-                <element signature="e#84366#84374#0" expanded="true" />
-                <element signature="e#207424#207432#0" expanded="true" />
-                <element signature="e#217578#217587#0" expanded="true" />
+                <element signature="e#35240#35261#0" expanded="true" />
+                <element signature="e#35279#35300#0" expanded="true" />
+                <element signature="e#35370#35389#0" expanded="true" />
+                <element signature="e#35407#35428#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -322,7 +221,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setF</find>
       <find>retrievedBuddyId</find>
       <find>cheerTemplates</find>
       <find>onTemplateButtonClicked</find>
@@ -352,6 +250,7 @@
       <find>virtual</find>
       <find>piech</find>
       <find>xAxis</find>
+      <find>Virtual</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -2134,10 +2033,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="184" />
     <option name="y" value="23" />
-    <option name="width" value="1703" />
-    <option name="height" value="1096" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2178,8 +2076,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2193,88 +2089,10 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthytogether2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthytogether2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthytogether2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epfl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthytogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthytogether2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epfl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -2282,7 +2100,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.24681684" />
-    <property name="device.picker.selection" value="21c21c830704" />
+    <property name="device.picker.selection" value="21e43045" />
     <property name="SearchEverywhereHistoryKey" value="onTemplateButtonClicked&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.MessagesActivity#onTemplateButtonClicked&#10;cheerTemplates&#9;PSI&#9;JAVA://ch.epfl.hci.happytogether.R.array#cheerTemplates&#10;extends AsyncTask&#9;null&#9;null&#10;mystep&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.Main2Activity#myStepHistory&#10;RetrieveBuddyName&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveExistingBuddyInfoTask#retrievedBuddyName&#10;RetrieveBuddyNameTask&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyNameTask&#10;RetrieveStepCountTask&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveStepCountTask&#10;RetrieveFloorCountTask&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveFloorCountTask&#10;getUserName&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.GroupMember#getUserName&#10;checkUserName&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.MainActivityCommunity#checkUserName&#10;XMLHandler&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.MsgXMLHandler&#10;RetrieveAllMessagesTask&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveAllMessagesTask&#10;header&#9;PSI&#9;JAVA://com.sun.jndi.dns.Header&#10;LOG_RESPONSE&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.resources.WsservletMessages#localizableTRACE_SERVLET_GOT_RESPONSE_FROM_IMPLEMENTOR&#10;Sync&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.SyncBackendWithFitbitTask&#10;setSynchronized&#9;PSI&#9;JAVA://com.sun.codemodel.internal.JMods#setSynchronized&#10;synchroni&#9;FILE&#9;jar:///Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/lib/tools.jar!/com/sun/tools/internal/xjc/addon/sync/SynchronizedMethodAddOn.class&#10;onOpenFitbiWebsiteButtonClicked&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.SettingsActivity#onOpenFitbiWebsiteButtonClicked&#10;settingsScreenSetup&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.SettingsActivity#settingsScreenSetup&#10;hideAuthenticationUI&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.SettingsActivity#hideAuthenticationUI&#10;showPreviousHistory&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.Main2Activity#showPreviousHistory&#10;***&#9;FILE&#9;file:///Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/src/main/java/ch/epfl/hci/healthytogether/IntroActivity.java&#10;&quot;InstantRun&quot;&#9;null&#9;null&#10;&quot;settings_progress_message&quot;&#9;null&#9;null&#10;Main&#9;FILE&#9;file:///Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/src/main/res/menu/activity_main.xml&#10;Main2&#9;FILE&#9;file:///Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether/app/src/main/res/menu/activity_main2.xml&#10;connection_error_message&#9;PSI&#9;JAVA://ch.epfl.hci.happytogether.R.string#connection_error_message&#10;checking your settings&#9;null&#9;null&#10;reach.bit&#9;null&#9;null&#10;RegisterTask&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.communication.ServerHelper.RegisterTask&#10;grpupc&#9;null&#9;null&#10;epfl.ch&#9;null&#9;null&#10;org.apache.http.conn&#9;PSI&#9;JAVA://org.apache.http.impl.conn.SingleClientConnManager.ConnAdapter&#10;ijdesign&#9;null&#9;null&#10;grpupc1&#9;null&#9;null&#10;url&#9;FILE&#9;jar:///Users/Yaliang/Library/Android/sdk/platforms/android-17/android.jar!/java/net/URL.class&#10;url = &quot;&#9;null&#9;null&#10;HttpPost&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.client.dispatch.DispatchImpl#HTTP_REQUEST_METHOD_POST&#10;http://grpupc1.epfl.ch&#9;null&#9;null&#10;db&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.OneDayBadges&#10;loginClicked&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.IntroActivity#loginClicked&#10;onRegisterClicked&#9;PSI&#9;JAVA://ch.epfl.hci.healthytogether.RegisterActivity#onRegisterClicked" />
     <property name="android.profiler.active" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2379,7 +2197,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523452474309" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523645169599" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2426,7 +2245,8 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523452474309" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523645169599" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2587,7 +2407,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523452474310" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523645169600" />
       </method>
     </configuration>
     <list size="1">
@@ -2641,7 +2462,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="184" y="23" width="1703" height="1096" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278867" sideWeight="0.4973404" order="2" side_tool="false" content_ui="tabs" />
@@ -2651,17 +2472,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3376206" sideWeight="0.2907916" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012988" sideWeight="0.4896215" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5606469" sideWeight="0.28683835" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22580644" sideWeight="0.44688427" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139785" sideWeight="0.47742325" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21272366" sideWeight="0.7375075" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18733154" sideWeight="0.71316165" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31182796" sideWeight="0.26249248" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2674,6 +2494,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012988" sideWeight="0.4896215" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23129252" sideWeight="0.49789283" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2696,7 +2517,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ch/epfl/hci/healthytogether/Main2Activity.java</url>
-          <line>3148</line>
+          <line>3150</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -3096,7 +2917,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3104,7 +2924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3112,7 +2931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3175,7 +2993,7 @@
           <folding>
             <element signature="e#3288#5230#0" expanded="false" />
             <element signature="e#5240#18110#0" expanded="false" />
-            <element signature="e#21497#21519#0" expanded="true" />
+            <element signature="e#21497#21519#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3184,23 +3002,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ch/epfl/hci/healthytogether/Main2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="6718" column="54" lean-forward="true" selection-start-line="6718" selection-start-column="54" selection-end-line="6718" selection-end-column="54" />
+        <state relative-caret-position="93">
+          <caret line="1061" column="0" lean-forward="true" selection-start-line="1061" selection-start-column="0" selection-end-line="1061" selection-end-column="0" />
           <folding>
-            <element signature="e#9935#9943#0" expanded="true" />
-            <element signature="e#12775#12784#0" expanded="true" />
-            <element signature="e#14002#14010#0" expanded="true" />
-            <element signature="e#19199#19208#0" expanded="true" />
-            <element signature="e#80561#80569#0" expanded="true" />
-            <element signature="e#84366#84374#0" expanded="true" />
-            <element signature="e#207424#207432#0" expanded="true" />
-            <element signature="e#217578#217587#0" expanded="true" />
+            <element signature="e#35240#35261#0" expanded="true" />
+            <element signature="e#35279#35300#0" expanded="true" />
+            <element signature="e#35370#35389#0" expanded="true" />
+            <element signature="e#35407#35428#0" expanded="true" />
           </folding>
         </state>
       </provider>
