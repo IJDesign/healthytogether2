@@ -1,6 +1,6 @@
 package ch.epfl.hci.healthytogether;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;

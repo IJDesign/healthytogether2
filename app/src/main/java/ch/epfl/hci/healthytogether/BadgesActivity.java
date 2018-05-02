@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 
 //import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckBadgesTask;
 //import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBadgesTask;

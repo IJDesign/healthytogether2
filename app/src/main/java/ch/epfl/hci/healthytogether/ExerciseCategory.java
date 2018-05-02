@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 
 import android.app.ListActivity;
 import android.content.Context;

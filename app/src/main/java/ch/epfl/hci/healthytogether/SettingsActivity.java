@@ -33,7 +33,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckFitbitAuthenticationTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.DeFriendTask;

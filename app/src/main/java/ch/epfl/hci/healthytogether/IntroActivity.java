@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 
 public class IntroActivity extends Activity {
 

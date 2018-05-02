@@ -18,7 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckFitbitAuthenticationTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveStepCountTask;
 import ch.epfl.hci.healthytogether.util.Utils;

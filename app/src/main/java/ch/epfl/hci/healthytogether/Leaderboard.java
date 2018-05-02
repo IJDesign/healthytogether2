@@ -4,7 +4,7 @@ package ch.epfl.hci.healthytogether;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.GetLeaderboardTask;
 import ch.epfl.hci.healthytogether.util.Utils;
 

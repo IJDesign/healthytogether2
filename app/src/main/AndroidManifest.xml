@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.epfl.hci.happytogether"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ch.epfl.hci.healthytogether"
     android:versionCode="71"
     android:versionName="3.7.7">
 
@@ -23,14 +24,26 @@
         android:debuggable="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_chat" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/slight_green" />
 
         <!-- ASMA START -->
         <activity
-            android:name="ch.epfl.hci.healthytogether.MainActivityCommunity"
+            android:name=".MainActivityCommunity"
             android:label="@string/main_activity_community"
             android:launchMode="singleTop"
-            android:parentActivityName="ch.epfl.hci.healthytogether.Main2Activity"
+            android:parentActivityName=".Main2Activity"
             android:theme="@android:style/Theme.NoTitleBar">
             >
             <meta-data
@@ -40,29 +53,29 @@
         <!-- ASMA END -->
 
         <activity
-            android:name="ch.epfl.hci.healthytogether.SplashActivity"
+            android:name=".SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
-            android:name="ch.epfl.hci.healthytogether.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:parentActivityName="ch.epfl.hci.healthytogether.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:windowSoftInputMode="adjustResize|stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.MainActivity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.RegisterActivity"
+            android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
-            android:parentActivityName="ch.epfl.hci.healthytogether.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.MainActivity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.IntroActivity"
+            android:name=".IntroActivity"
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,59 +84,59 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:parentActivityName="ch.epfl.hci.healthytogether.LoginActivity">
+            android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.LoginActivity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.SettingsActivity"
+            android:name=".SettingsActivity"
             android:label="@string/menu_settings"
-            android:parentActivityName="ch.epfl.hci.healthytogether.LoginActivity">
+            android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.LoginActivity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.HistoryActivity"
+            android:name=".HistoryActivity"
             android:label="@string/title_log_history"
-            android:parentActivityName="ch.epfl.hci.healthytogether.Main2Activity">
+            android:parentActivityName=".Main2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.Main2Activity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.ExerciseTabHost"
+            android:name=".ExerciseTabHost"
             android:label="Select Activity"
             android:theme="@android:style/Theme.Dialog" />
         <activity
-            android:name="ch.epfl.hci.healthytogether.ExerciseCategory"
+            android:name=".ExerciseCategory"
             android:label="Exercises" />
         <activity
-            android:name="ch.epfl.hci.healthytogether.SedentaryCategory"
+            android:name=".SedentaryCategory"
             android:label="Sedentary" />
         <activity
-            android:name="ch.epfl.hci.healthytogether.BadgesActivity"
+            android:name=".BadgesActivity"
             android:label="Earned Badges"
-            android:parentActivityName="ch.epfl.hci.healthytogether.Main2Activity">
+            android:parentActivityName=".Main2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.Main2Activity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.SelectCheerTemplateActivity"
+            android:name=".SelectCheerTemplateActivity"
             android:label="@string/title_activity_select_cheer_template"
-            android:parentActivityName="ch.epfl.hci.healthytogether.Main2Activity">
+            android:parentActivityName=".Main2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.Main2Activity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.ComposeMessageActivity"
+            android:name=".ComposeMessageActivity"
             android:label="@string/title_activity_compose_message"
-            android:parentActivityName="ch.epfl.hci.healthytogether.SelectCheerTemplateActivity">
+            android:parentActivityName=".SelectCheerTemplateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.SelectCheerTemplateActivity" />
@@ -131,11 +144,11 @@
 
         <!-- android:label="@string/app_name" -->
         <activity
-            android:name="ch.epfl.hci.healthytogether.InviteBuddyActivity"
+            android:name=".InviteBuddyActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_invite_buddy"
             android:launchMode="singleTask"
-            android:parentActivityName="ch.epfl.hci.healthytogether.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.Main2Activity" /> <!-- Why was it MainActivity before?? -->
@@ -175,9 +188,9 @@
         -->
 
         <activity
-            android:name="ch.epfl.hci.healthytogether.Main2Activity"
+            android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:parentActivityName="ch.epfl.hci.healthytogether.IntroActivity"
+            android:parentActivityName=".IntroActivity"
             android:theme="@android:style/Theme.NoTitleBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -195,39 +208,56 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.MessagesActivity"
+            android:name=".MessagesActivity"
             android:label="@string/title_activity_select_cheer_template"
-            android:parentActivityName="ch.epfl.hci.healthytogether.Main2Activity"
+            android:parentActivityName=".Main2Activity"
             android:windowSoftInputMode="stateHidden|adjustPan">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.Main2Activity" />
+            <intent-filter>
+                <action android:name="MESSAGES_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.AuthenticateFitbitActivity"
+            android:name=".AuthenticateFitbitActivity"
             android:label="@string/title_activity_authenticate_fitbit"
-            android:parentActivityName="ch.epfl.hci.healthytogether.RegisterActivity">
+            android:parentActivityName=".RegisterActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.RegisterActivity" />
         </activity>
         <activity
-            android:name="ch.epfl.hci.healthytogether.AcceptBuddyActivity"
+            android:name=".AcceptBuddyActivity"
             android:label="@string/title_activity_accept_buddy"
-            android:parentActivityName="ch.epfl.hci.healthytogether.IntroActivity">
+            android:parentActivityName=".IntroActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.IntroActivity" />
         </activity>
 
-        <receiver android:name="ch.epfl.hci.healthytogether.service.CheckForMessageBootReceiver">
+        <service android:name=".firebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".service.CheckForMessageBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="ch.epfl.hci.healthytogether.service.CheckForMessageAlarmReceiver"></receiver>
+        <receiver android:name=".service.CheckForMessageAlarmReceiver" />
 
-        <service android:name="ch.epfl.hci.healthytogether.service.CheckForMessageService"></service>
+        <service android:name=".service.CheckForMessageService" />
+
+        <service
+            android:name=".service.MyFireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
 
         <!--
         <receiver android:name="ch.epfl.hci.healthytogether.service.CheckForLogBootReceiver" >
@@ -244,16 +274,20 @@
         -->
 
         <activity
-            android:name="ch.epfl.hci.healthytogether.PendingBuddyRequestActivity"
+            android:name=".PendingBuddyRequestActivity"
             android:label="@string/title_activity_pending_buddy_request"
-            android:parentActivityName="ch.epfl.hci.healthytogether.IntroActivity">
+            android:parentActivityName=".IntroActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.epfl.hci.healthytogether.IntroActivity" />
         </activity>
 
         <service
-            android:name="ch.epfl.hci.healthytogether.service.CustomTabsKeepAliveService"
+            android:name=".service.CustomTabsKeepAliveService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyFireBaseMessagingService"
             android:enabled="true"
             android:exported="true"></service>
     </application>

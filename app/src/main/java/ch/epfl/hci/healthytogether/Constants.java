@@ -17,7 +17,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import ch.epfl.hci.happytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CancelPledgesTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SendTimelyLogTask;
 

@@ -38,7 +38,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.AcceptBuddyRequestTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.DeFriendTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.DeFriendTask2;

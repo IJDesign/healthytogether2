@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.novoda:simple-chrome-custom-tabs-0.1.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/simple-chrome-custom-tabs-0.1.5.aar/f5828709a319c736fb577c5dbd5ebf30/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/simple-chrome-custom-tabs-0.1.5.aar/f5828709a319c736fb577c5dbd5ebf30/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.novoda/simple-chrome-custom-tabs/0.1.5/96d44adb5636606e7a10b76723f23ad367a94889/simple-chrome-custom-tabs-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

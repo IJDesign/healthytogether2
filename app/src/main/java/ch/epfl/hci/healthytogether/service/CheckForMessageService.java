@@ -3,9 +3,6 @@
  */
 package ch.epfl.hci.healthytogether.service;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -19,25 +16,26 @@ import android.net.NetworkInfo.State;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
-import ch.epfl.hci.happytogether.R;
+
+import com.commonsware.cwac.wakeful.WakefulIntentService;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+
 import ch.epfl.hci.healthytogether.AcceptBuddyActivity;
 import ch.epfl.hci.healthytogether.AppContext;
 import ch.epfl.hci.healthytogether.Constants;
 import ch.epfl.hci.healthytogether.HistoryActivity;
-import ch.epfl.hci.healthytogether.LoginActivity;
 import ch.epfl.hci.healthytogether.Main2Activity;
 import ch.epfl.hci.healthytogether.MessagesActivity;
-import ch.epfl.hci.healthytogether.SettingsActivity;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckMessagesTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyEMailTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyEMailTask2;
-import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveStepCountTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SyncBackendWithFitbitTask;
 import ch.epfl.hci.healthytogether.util.Utils;
-
-import com.commonsware.cwac.wakeful.WakefulIntentService;
 
 /**
  * Checks whether a buddy invitation or a message is available on the server. If

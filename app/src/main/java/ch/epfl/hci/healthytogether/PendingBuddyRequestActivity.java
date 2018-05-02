@@ -23,7 +23,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.AcceptBuddyRequestTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckInvitationDateTask;

@@ -54,8 +54,8 @@ import java.util.ArrayList;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import ch.epfl.hci.happytogether.App;
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.App;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.AppContext;
 import ch.epfl.hci.healthytogether.Constants;
 import ch.epfl.hci.healthytogether.ErrorHandler;

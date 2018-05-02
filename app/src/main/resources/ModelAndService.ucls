@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <class id="1" language="java" name="ch.epfl.hci.healthytogether.service.CheckForMessageBootReceiver" 
     project="ch.epfl.hci.healthytogether" 
-    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/happytogether/service/CheckForMessageBootReceiver.java" 
+    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/healthytogether/service/CheckForMessageBootReceiver.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="99" width="206" x="316" y="0"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
@@ -14,7 +14,7 @@
   </class>  
   <class id="2" language="java" name="ch.epfl.hci.healthytogether.service.CheckForMessageAlarmReceiver" 
     project="ch.epfl.hci.healthytogether" 
-    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/happytogether/service/CheckForMessageAlarmReceiver.java" 
+    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/healthytogether/service/CheckForMessageAlarmReceiver.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="99" width="214" x="62" y="0"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
@@ -25,7 +25,7 @@
   </class>  
   <class id="3" language="java" name="ch.epfl.hci.healthytogether.service.CheckForMessageService" 
     project="ch.epfl.hci.healthytogether" 
-    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/happytogether/service/CheckForMessageService.java" binary="false" 
+    file="/ch.epfl.hci.healthytogether/src/ch/epfl/hci/healthytogether/service/CheckForMessageService.java" binary="false"
     corner="BOTTOM_RIGHT">    
     <position height="279" width="302" x="562" y="0"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 

@@ -1,5 +1,7 @@
 package ch.epfl.hci.healthytogether;
 
+// Include this import line up top
+import com.heapanalytics.android.Heap;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -87,7 +89,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckFitbitAuthenticationTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.DeFriendTask;
@@ -106,6 +108,10 @@ import ch.epfl.hci.healthytogether.communication.ServerHelper.SetFloorPledgeTask
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SetStepPledgeTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SyncBackendWithFitbitTask;
 import ch.epfl.hci.healthytogether.util.Utils;
+
+import com.google.firebase.messaging.FirebaseMessaging;
+// ...
+
 
 //import java.util.Locale;
 /*import android.app.Notification;
@@ -741,6 +747,10 @@ public class Main2Activity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		// Insert line below replacing "MY ENV ID" with your test env from step 1
+		Heap.init(getApplicationContext(), "770905003");
+
+		FirebaseMessaging.getInstance().subscribeToTopic("all");
 		//CustomTab testing. *******************
 		SimpleChromeCustomTabs.initialize(this);
 
@@ -906,21 +916,41 @@ Log.d("tab", tv.toString());
 //-------- Get the step value and show in the summary text on the top. Yaliang. *****
 					//## Todo: how to show different name (user or buddy) by clicking different bar????????? ******************************
 					barChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
-						@Override
+
 						public void onValueSelected(Entry e, Highlight h) {
 							// display msg when value selected
 							if (e == null)
 								return;
 							// Ref: https://stackoverflow.com/questions/41216241/how-to-get-selected-bar-x-axis-namestrings-added-to-x-axis-using-mp-chart
 							String selectedDate = barChart.getXAxis().getValueFormatter().getFormattedValue(e.getX(), barChart.getXAxis());
-							//Log.d("data", barChart.getXAxis().getValueFormatter().getFormattedValue(e.getX(), barChart.getXAxis()));
-							//Log.d("data", e.getData());
+							Log.d("data", barChart.getXAxis().getValueFormatter().getFormattedValue(e.getX(), barChart.getXAxis()));
+
+							BarEntry myEntry = (BarEntry) e;
+
+							Integer selectedBarIndex = h.getStackIndex();
+                            Log.i("VAL SELECTED", "Value: " + h.getDataSetIndex());
+                            Log.d("logic", Boolean.toString(selectedBarIndex.equals(0)));
 							TextView text = (TextView) findViewById(R.id.summary_history);
-							text.setText(getString(R.string.historyview_a) + " " +
-									selectedDate + ", " + Constants.userName + " " +
-									getString(R.string.historyview_b) + " " +
-									String.valueOf(Math.round(e.getY())) + " " +
-									getString(R.string.historyview_c));
+							if (selectedBarIndex.equals(0)) {
+								Log.i("Name selected", "Value: " + Constants.userName);
+
+								text.setText(getString(R.string.historyview_a) + " " +
+										selectedDate + ", " + Constants.userName + " " +
+										getString(R.string.historyview_b) + " " +
+										String.valueOf(Math.round(myEntry.getYVals()[0])) + " " +
+										getString(R.string.historyview_c));
+							} else {
+								Log.i("Name selected", "Value: " + Constants.buddyName);
+								text.setText(getString(R.string.historyview_a) + " " +
+										selectedDate + ", " + Constants.buddyName + " " +
+										getString(R.string.historyview_b) + " " +
+										String.valueOf(Math.round(myEntry.getYVals()[1])) + " " +
+										getString(R.string.historyview_c));
+							}
+
+
+
+							//Log.d("data", e.getData());
 						}
 
 						@Override
@@ -1069,6 +1099,7 @@ Log.d("tab", tv.toString());
 
 		int fid = AppContext.getInstance().getFriendId();
 		Log.d("fid**0", String.valueOf(fid));
+		FirebaseMessaging.getInstance().subscribeToTopic(Integer.toString(AppContext.getInstance().getUserId()));
 
 		if(fid != virtual_Fid) {
 			tvR.setText(R.string.cheer_friend);

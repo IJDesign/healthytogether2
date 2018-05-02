@@ -1,39 +1,27 @@
 package ch.epfl.hci.healthytogether;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
 import android.content.pm.ActivityInfo;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.EditText;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.Spinner;
-import android.widget.TableLayout;
 import android.widget.Toast;
-import ch.epfl.hci.happytogether.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import ch.epfl.hci.healthytogether.communication.ServerHelper.ChangeLogTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckMessagesTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveAllMessagesTask;
-import ch.epfl.hci.healthytogether.communication.ServerHelper.SendMessageTask;
 import ch.epfl.hci.healthytogether.model.MessageMeta;
 import ch.epfl.hci.healthytogether.util.Utils;
 

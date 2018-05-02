@@ -18,7 +18,7 @@ import android.net.NetworkInfo.State;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.widget.Toast;
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.AcceptBuddyActivity;
 import ch.epfl.hci.healthytogether.AppContext;
 import ch.epfl.hci.healthytogether.Constants;

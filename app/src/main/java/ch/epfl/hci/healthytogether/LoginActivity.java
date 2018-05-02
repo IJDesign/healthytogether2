@@ -39,7 +39,7 @@ import org.apache.http.util.EntityUtils;
 
 import java.util.ArrayList;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveBuddyEMailTask2;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SendPasswordReminderTask;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ch.epfl.hci.happytogether;
+package ch.epfl.hci.healthytogether;
 
 import android.app.Application;
 import android.content.Context;

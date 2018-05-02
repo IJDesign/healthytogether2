@@ -3,9 +3,15 @@ buildscript {
     repositories {
         jcenter()
         google()
+        maven {
+            url 'https://heap-maven-public.s3.amazonaws.com/android-testing'
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.1.1'
+        // Within buildscript.dependencies, add the classpath below
+        classpath 'com.heapanalytics.android:heap-android-gradle:0.6.0'
+        classpath 'com.google.gms:google-services:3.1.1'
     }
 }
 
@@ -14,5 +20,8 @@ allprojects {
         jcenter()
         google()
         maven { url "https://jitpack.io" }
+        maven {
+            url 'https://heap-maven-public.s3.amazonaws.com/android-testing'
+        }
     }
 }

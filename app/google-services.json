@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095016301946",
+    "firebase_url": "https://reach-d8213.firebaseio.com",
+    "project_id": "reach-d8213",
+    "storage_bucket": "reach-d8213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095016301946:android:5a6458db3b145651",
+        "android_client_info": {
+          "package_name": "ch.epfl.hci.healthytogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095016301946-d0tjig73rtk464si15m9fi2qs7sf6ktb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ch.epfl.hci.healthytogether",
+            "certificate_hash": "8d3d243329a5e9ac9f4092dcc89e5dffefbd0768"
+          }
+        },
+        {
+          "client_id": "1095016301946-idlav14e1bbtnhv9ntmpp8pql2kf71r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBag5EGjlPNoCiqpCl4aS5FAuYgraBh0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095016301946-idlav14e1bbtnhv9ntmpp8pql2kf71r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

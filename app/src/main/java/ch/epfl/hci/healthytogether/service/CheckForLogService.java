@@ -22,7 +22,7 @@ import com.commonsware.cwac.wakeful.WakefulIntentService;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.AcceptBuddyActivity;
 import ch.epfl.hci.healthytogether.AppContext;
 import ch.epfl.hci.healthytogether.Constants;

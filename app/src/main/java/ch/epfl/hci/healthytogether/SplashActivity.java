@@ -1,6 +1,6 @@
 package ch.epfl.hci.healthytogether;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.util.SystemUiHider;
 
 import android.annotation.TargetApi;

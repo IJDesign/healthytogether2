@@ -3,7 +3,7 @@ package ch.epfl.hci.healthytogether;
 import java.util.ArrayList;
 import java.util.List;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.ChangeLogTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RemoveLogTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SendMessageTask;

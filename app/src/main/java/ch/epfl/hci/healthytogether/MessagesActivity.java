@@ -28,7 +28,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import ch.epfl.hci.happytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckMessagesTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.RetrieveAllMessagesTask;

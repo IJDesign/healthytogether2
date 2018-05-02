@@ -3,7 +3,7 @@ package ch.epfl.hci.healthytogether;
 import java.util.ArrayList;
 import java.util.List;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,9 +1,5 @@
 package ch.epfl.hci.healthytogether;
 
-import java.util.ArrayList;
-
-import ch.epfl.hci.happytogether.R;
-import android.R.bool;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -16,6 +12,8 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TableRow.LayoutParams;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class DynamicTable extends Activity {
 	TableLayout table;

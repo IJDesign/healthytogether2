@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import ch.epfl.hci.happytogether.App;
+import ch.epfl.hci.healthytogether.App;
 
 /**
  * Global data storage, to prevent passing this data around via intent extras

@@ -4,7 +4,7 @@ package ch.epfl.hci.healthytogether;
 import java.util.ArrayList;
 import java.util.Random;
 
-import ch.epfl.hci.happytogether.R;
+import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.AcceptBuddyRequestTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.GetListOfUsersForInvitationTask;

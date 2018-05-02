@@ -10,7 +10,7 @@
     <string name="dailyview_b">stappen</string>
     <string name="dailyview_c">Sorry, </string>
     <string name="dailyview_d">geen data</string>
-    <string name="dailyview_day">today</string>
+    <string name="dailyview_day">vandaag</string>
     <string name="historyview_a">Op </string>
     <string name="historyview_b">U heeft</string>
     <string name="historyview_c">stappen</string>
@@ -165,8 +165,8 @@
     
     <!-- Strings we observe in XMLs related to Main2Activity -->
     
-    <string name="today">today</string>
-    <string name="yesterday">yesterday</string>
+    <string name="today">vandaag</string>
+    <string name="yesterday">gisteren</string>
     <string name="your_log">Your Log</string>
     <string name="mood">Mood?</string>
     <string name="history">History</string>
