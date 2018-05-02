@@ -4,7 +4,9 @@
     <!-- Visualization, Yaliang, Jan.23, 2018-->
     <!-- Change the texts into Dutch for those below-->
     <!-- Dutch for those below -->
-    <string name="dailyview_a">Jullie hebben</string>
+    <string name="today">vandaag</string>
+    <string name="yesterday">gisteren</string>
+    <string name="dailyview_a">jullie hebben</string>
     <string name="dailyview_o">op</string>
     <string name="dailyview_t">vandaag</string>
     <string name="dailyview_b">stappen</string>
@@ -165,8 +167,7 @@
     
     <!-- Strings we observe in XMLs related to Main2Activity -->
     
-    <string name="today">today</string>
-    <string name="yesterday">yesterday</string>
+
     <string name="your_log">Your Log</string>
     <string name="mood">Mood?</string>
     <string name="history">History</string>
