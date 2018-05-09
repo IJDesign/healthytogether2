@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/310194288/StudioProjects/healthytogether2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/310194288/StudioProjects/healthytogether2/app/src/main/res/values-v11/styles.xml",
-                    "from": {
-                        "startLines": "7,11,15",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "216,354,519",
-                        "endLines": "9,13,21",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "348,513,952"
-                    },
-                    "to": {
-                        "startLines": "2,83,86",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,5776,5940",
-                        "endLines": "4,85,92",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "187,5935,6373"
-                    }
-                },
-                {
-                    "source": "/Users/310194288/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9c8b12a97a18b1d1a9e0a09b2ab67308/res/values-v11/values-v11.xml",
+                    "source": "/Users/Yaliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3d5152856060540d1ca48ebc388963dd/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "10,16,22,28,34,40,41,45,49,50,54,58,59,63,68,73,78,80,82,93,94,148,203,204",
                         "endColumns": "12,12,12,12,12,12,88,12,12,100,12,12,102,12,12,12,12,12,12,70,82,12,12,90",
                         "endOffsets": "606,1031,1459,1885,2312,2737,2826,3072,3321,3422,3674,3929,4032,4285,4693,5113,5535,5642,5771,6444,6527,10552,14720,14811"
+                    }
+                },
+                {
+                    "source": "/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "7,11,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "216,354,519",
+                        "endLines": "9,13,21",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "348,513,952"
+                    },
+                    "to": {
+                        "startLines": "2,83,86",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,5776,5940",
+                        "endLines": "4,85,92",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "187,5935,6373"
                     }
                 }
             ]

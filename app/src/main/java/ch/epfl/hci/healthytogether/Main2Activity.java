@@ -1,21 +1,21 @@
 package ch.epfl.hci.healthytogether;
 
 // Include this import line up top
-import com.heapanalytics.android.Heap;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.NavUtils;
@@ -53,11 +53,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
-import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
@@ -76,8 +74,9 @@ import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.github.mikephil.charting.listener.ChartTouchListener;
 import com.github.mikephil.charting.listener.OnChartGestureListener;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.heapanalytics.android.Heap;
 import com.novoda.simplechromecustomtabs.SimpleChromeCustomTabs;
-import com.novoda.simplechromecustomtabs.navigation.NavigationFallback;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -89,7 +88,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import ch.epfl.hci.healthytogether.R;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckFitbitAuthenticationTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.CheckGroupTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.DeFriendTask;
@@ -108,8 +106,6 @@ import ch.epfl.hci.healthytogether.communication.ServerHelper.SetFloorPledgeTask
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SetStepPledgeTask;
 import ch.epfl.hci.healthytogether.communication.ServerHelper.SyncBackendWithFitbitTask;
 import ch.epfl.hci.healthytogether.util.Utils;
-
-import com.google.firebase.messaging.FirebaseMessaging;
 // ...
 
 
@@ -254,6 +250,46 @@ public class Main2Activity extends Activity {
 	public String inviterEmail;
 	public ArrayList<String> invitationEmails = new ArrayList<String>();
 	ArrayAdapter<String> items;
+
+////Update the ChatView every one minute, Ref: https://stackoverflow.com/questions/5457186/best-way-to-update-textview-every-minute-on-the-minute
+	BroadcastReceiver _broadcastReceiver;
+	private final SimpleDateFormat _sdfWatchTime = new SimpleDateFormat("HH:mm");
+
+	@Override
+	public void onStart() {
+		super.onStart();
+		_broadcastReceiver = new BroadcastReceiver() {
+			@Override
+			public void onReceive(Context ctx, Intent intent) {
+				TextView _tvTime = (TextView) findViewById(R.id._tvTime);
+
+				if (intent.getAction().compareTo(Intent.ACTION_TIME_TICK) == 0){
+					_tvTime.setText(_sdfWatchTime.format(new Date()));
+					tab_host = (TabHost) findViewById(R.id.edit_item_tab_host);
+					String tabId = tab_host.getCurrentTabTag();
+					if(tabId.equals("Steps")|| tabId.equals(getResources().getString(R.string.steps_tab))) {
+						if (datePivot == 0) {
+							Log.d("test", "Broadcasting and Updating PieChart");
+							Load_data_draw_Piechart(0);
+						}
+					} else if(tabId.equals("Floors") || tabId.equals(getResources().getString(R.string.floors_tab))) {
+						Log.d("test", "Broadcasting and Updating BarChart");
+						load_data_draw_barchart();
+					}
+				}
+			}
+		};
+
+		registerReceiver(_broadcastReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
+	}
+
+	@Override
+	public void onStop() {
+		super.onStop();
+		if (_broadcastReceiver != null)
+			unregisterReceiver(_broadcastReceiver);
+	}
+
 
 	private Runnable checkForProgressTask = new Runnable() {
 
@@ -890,7 +926,7 @@ Log.d("tab", tv.toString());
 			@Override
 			public void onTabChanged(String tabId) {
 
-			    if(tabId.equals("Steps")|| tabId.equals(getResources().getString(R.string.steps_tab))) {
+				if(tabId.equals("Steps")|| tabId.equals(getResources().getString(R.string.steps_tab))) {
 			    	//Yaliang: Show the daily data, ************************************************
 			    	//if(time2refresh(lastRefStepL))
 			    		Constants.VIEW_STEPS = true;
@@ -3898,9 +3934,10 @@ Log.d("tab", tv.toString());
 	}*/
 
 	private void updateDisplay(boolean displayMessage) {
-		displayCongratulations = displayMessage;
-		updateStepBadges();
-		updateFloorBadges();
+		//displayCongratulations = displayMessage; // Disable the dialogue by Yaliang, May 9, 2018.
+		//updateStepBadges();
+		//updateFloorBadges();
+
 	}
 
 	/*

@@ -1,580 +1,10 @@
 specs {
-  name: "OnClickAttributeValue_onCheerButtonClicked"
-  description: "Capture clicks for android:onClick=\"onCheerButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onCheerButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onLauchCustomTab"
-  description: "Capture clicks for android:onClick=\"onLauchCustomTab\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onLauchCustomTab"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onPledgeButtonClicked"
-  description: "Capture clicks for android:onClick=\"onPledgeButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onPledgeButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onRefreshLeaderboardButtonClickedFloor"
-  description: "Capture clicks for android:onClick=\"onRefreshLeaderboardButtonClickedFloor\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onRefreshLeaderboardButtonClickedFloor"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onRefreshButtonClicked"
-  description: "Capture clicks for android:onClick=\"onRefreshButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onRefreshButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_showPreviousHistory"
-  description: "Capture clicks for android:onClick=\"showPreviousHistory\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "showPreviousHistory"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onPledgeConfirmButtonClicked"
-  description: "Capture clicks for android:onClick=\"onPledgeConfirmButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onPledgeConfirmButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onInviteButtonClicked"
-  description: "Capture clicks for android:onClick=\"onInviteButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onInviteButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onLogConfirmButtonClicked"
-  description: "Capture clicks for android:onClick=\"onLogConfirmButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onLogConfirmButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onTemplateButtonClicked"
-  description: "Capture clicks for android:onClick=\"onTemplateButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onTemplateButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onBuddyChangeAcknowledged"
-  description: "Capture clicks for android:onClick=\"onBuddyChangeAcknowledged\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onBuddyChangeAcknowledged"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onChangeFaceButtonClicked"
-  description: "Capture clicks for android:onClick=\"onChangeFaceButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onChangeFaceButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onCancelInvitationButtonClicked"
-  description: "Capture clicks for android:onClick=\"onCancelInvitationButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onCancelInvitationButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onCancelNewInvitationButtonClicked"
-  description: "Capture clicks for android:onClick=\"onCancelNewInvitationButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onCancelNewInvitationButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onNutritionButtonClicked"
-  description: "Capture clicks for android:onClick=\"onNutritionButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onNutritionButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onMoodButtonClicked"
-  description: "Capture clicks for android:onClick=\"onMoodButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onMoodButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
   name: "OnClickAttributeValue_onBadgeHistoryButtonClicked"
   description: "Capture clicks for android:onClick=\"onBadgeHistoryButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
       name: "onBadgeHistoryButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onContinueToHTButtonClicked"
-  description: "Capture clicks for android:onClick=\"onContinueToHTButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onContinueToHTButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onPopupOkButtonClicked"
-  description: "Capture clicks for android:onClick=\"onPopupOkButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onPopupOkButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onRefreshLeaderboardButtonClicked"
-  description: "Capture clicks for android:onClick=\"onRefreshLeaderboardButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onRefreshLeaderboardButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -629,12 +59,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onPledgePopupOkButtonClicked"
-  description: "Capture clicks for android:onClick=\"onPledgePopupOkButtonClicked\""
+  name: "OnClickAttributeValue_registerClicked"
+  description: "Capture clicks for android:onClick=\"registerClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onPledgePopupOkButtonClicked"
+      name: "registerClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -659,72 +89,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onAuthorizeCompleteButtonClicked"
-  description: "Capture clicks for android:onClick=\"onAuthorizeCompleteButtonClicked\""
+  name: "OnClickAttributeValue_onCancelNewInvitationButtonClicked"
+  description: "Capture clicks for android:onClick=\"onCancelNewInvitationButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onAuthorizeCompleteButtonClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onToggleSuggestionsListClicked"
-  description: "Capture clicks for android:onClick=\"onToggleSuggestionsListClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onToggleSuggestionsListClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onSocialButtonClicked"
-  description: "Capture clicks for android:onClick=\"onSocialButtonClicked\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onSocialButtonClicked"
+      name: "onCancelNewInvitationButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -779,12 +149,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onChangeBuddyButtonFromSettingsClicked"
-  description: "Capture clicks for android:onClick=\"onChangeBuddyButtonFromSettingsClicked\""
+  name: "OnClickAttributeValue_onPledgeButtonClickedFloor"
+  description: "Capture clicks for android:onClick=\"onPledgeButtonClickedFloor\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onChangeBuddyButtonFromSettingsClicked"
+      name: "onPledgeButtonClickedFloor"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -809,12 +179,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onRemindButtonClicked"
-  description: "Capture clicks for android:onClick=\"onRemindButtonClicked\""
+  name: "OnClickAttributeValue_showLaterHistory"
+  description: "Capture clicks for android:onClick=\"showLaterHistory\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onRemindButtonClicked"
+      name: "showLaterHistory"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -839,42 +209,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onRegisterClicked"
-  description: "Capture clicks for android:onClick=\"onRegisterClicked\""
+  name: "OnClickAttributeValue_onRejectInvitationsButtonClicked"
+  description: "Capture clicks for android:onClick=\"onRejectInvitationsButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onRegisterClicked"
-      return_type: "V"
-      parameter_types: "Landroid/view/View;"
-    }
-  }
-  captures {
-    arg_index: 0
-  }
-  captures {
-    arg_index: 1
-  }
-  captures {
-    instrumented_method_name {
-    }
-  }
-  call {
-    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
-    name: "captureClick"
-    return_type: "V"
-    parameter_types: "Landroid/app/Activity;"
-    parameter_types: "Landroid/view/View;"
-    parameter_types: "Ljava/lang/String;"
-  }
-}
-specs {
-  name: "OnClickAttributeValue_onLaunchCustomTab"
-  description: "Capture clicks for android:onClick=\"onLaunchCustomTab\""
-  target {
-    overrides {
-      class_name: "Landroid/app/Activity;"
-      name: "onLaunchCustomTab"
+      name: "onRejectInvitationsButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -929,12 +269,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onChangeBuddyButtonClicked"
-  description: "Capture clicks for android:onClick=\"onChangeBuddyButtonClicked\""
+  name: "OnClickAttributeValue_onAcceptButtonClicked"
+  description: "Capture clicks for android:onClick=\"onAcceptButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onChangeBuddyButtonClicked"
+      name: "onAcceptButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -959,12 +299,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onBuddyMessageClosed"
-  description: "Capture clicks for android:onClick=\"onBuddyMessageClosed\""
+  name: "OnClickAttributeValue_onCancelInvitationButtonClicked"
+  description: "Capture clicks for android:onClick=\"onCancelInvitationButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onBuddyMessageClosed"
+      name: "onCancelInvitationButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -989,12 +329,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onHistoryButtonClicked"
-  description: "Capture clicks for android:onClick=\"onHistoryButtonClicked\""
+  name: "OnClickAttributeValue_onOpenFitbiWebsiteButtonClicked"
+  description: "Capture clicks for android:onClick=\"onOpenFitbiWebsiteButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onHistoryButtonClicked"
+      name: "onOpenFitbiWebsiteButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1019,12 +359,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_showLaterHistory"
-  description: "Capture clicks for android:onClick=\"showLaterHistory\""
+  name: "OnClickAttributeValue_onContinueToHTButtonClicked"
+  description: "Capture clicks for android:onClick=\"onContinueToHTButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "showLaterHistory"
+      name: "onContinueToHTButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1109,12 +449,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onTauntButtonClicked"
-  description: "Capture clicks for android:onClick=\"onTauntButtonClicked\""
+  name: "OnClickAttributeValue_onRefreshLeaderboardButtonClicked"
+  description: "Capture clicks for android:onClick=\"onRefreshLeaderboardButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onTauntButtonClicked"
+      name: "onRefreshLeaderboardButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1139,12 +479,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onOpenFitbiWebsiteButtonClicked"
-  description: "Capture clicks for android:onClick=\"onOpenFitbiWebsiteButtonClicked\""
+  name: "OnClickAttributeValue_onRemindButtonClicked"
+  description: "Capture clicks for android:onClick=\"onRemindButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onOpenFitbiWebsiteButtonClicked"
+      name: "onRemindButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1169,12 +509,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onRejectInvitationsButtonClicked"
-  description: "Capture clicks for android:onClick=\"onRejectInvitationsButtonClicked\""
+  name: "OnClickAttributeValue_onChangeBuddyButtonFromSettingsClicked"
+  description: "Capture clicks for android:onClick=\"onChangeBuddyButtonFromSettingsClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onRejectInvitationsButtonClicked"
+      name: "onChangeBuddyButtonFromSettingsClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1199,12 +539,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onAcceptButtonClicked"
-  description: "Capture clicks for android:onClick=\"onAcceptButtonClicked\""
+  name: "OnClickAttributeValue_onLaunchCustomTab"
+  description: "Capture clicks for android:onClick=\"onLaunchCustomTab\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onAcceptButtonClicked"
+      name: "onLaunchCustomTab"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1229,12 +569,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onGroupButtonClicked"
-  description: "Capture clicks for android:onClick=\"onGroupButtonClicked\""
+  name: "OnClickAttributeValue_onPledgeButtonClicked"
+  description: "Capture clicks for android:onClick=\"onPledgeButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onGroupButtonClicked"
+      name: "onPledgeButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1259,12 +599,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onIncomingInvitationsButtonClicked"
-  description: "Capture clicks for android:onClick=\"onIncomingInvitationsButtonClicked\""
+  name: "OnClickAttributeValue_onRegisterClicked"
+  description: "Capture clicks for android:onClick=\"onRegisterClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onIncomingInvitationsButtonClicked"
+      name: "onRegisterClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1289,12 +629,12 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_onPledgeButtonClickedFloor"
-  description: "Capture clicks for android:onClick=\"onPledgeButtonClickedFloor\""
+  name: "OnClickAttributeValue_onBuddyChangeAcknowledged"
+  description: "Capture clicks for android:onClick=\"onBuddyChangeAcknowledged\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "onPledgeButtonClickedFloor"
+      name: "onBuddyChangeAcknowledged"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1319,12 +659,252 @@ specs {
   }
 }
 specs {
-  name: "OnClickAttributeValue_registerClicked"
-  description: "Capture clicks for android:onClick=\"registerClicked\""
+  name: "OnClickAttributeValue_onRefreshButtonClicked"
+  description: "Capture clicks for android:onClick=\"onRefreshButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
-      name: "registerClicked"
+      name: "onRefreshButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onLogConfirmButtonClicked"
+  description: "Capture clicks for android:onClick=\"onLogConfirmButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onLogConfirmButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onPopupOkButtonClicked"
+  description: "Capture clicks for android:onClick=\"onPopupOkButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onPopupOkButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onPledgeConfirmButtonClicked"
+  description: "Capture clicks for android:onClick=\"onPledgeConfirmButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onPledgeConfirmButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onNutritionButtonClicked"
+  description: "Capture clicks for android:onClick=\"onNutritionButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onNutritionButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onLauchCustomTab"
+  description: "Capture clicks for android:onClick=\"onLauchCustomTab\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onLauchCustomTab"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onSocialButtonClicked"
+  description: "Capture clicks for android:onClick=\"onSocialButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onSocialButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_showPreviousHistory"
+  description: "Capture clicks for android:onClick=\"showPreviousHistory\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "showPreviousHistory"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onTemplateButtonClicked"
+  description: "Capture clicks for android:onClick=\"onTemplateButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onTemplateButtonClicked"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }
@@ -1379,12 +959,432 @@ specs {
   }
 }
 specs {
+  name: "OnClickAttributeValue_onToggleSuggestionsListClicked"
+  description: "Capture clicks for android:onClick=\"onToggleSuggestionsListClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onToggleSuggestionsListClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onAuthorizeCompleteButtonClicked"
+  description: "Capture clicks for android:onClick=\"onAuthorizeCompleteButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onAuthorizeCompleteButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onCheerButtonClicked"
+  description: "Capture clicks for android:onClick=\"onCheerButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onCheerButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onChangeFaceButtonClicked"
+  description: "Capture clicks for android:onClick=\"onChangeFaceButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onChangeFaceButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onPledgePopupOkButtonClicked"
+  description: "Capture clicks for android:onClick=\"onPledgePopupOkButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onPledgePopupOkButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onGroupButtonClicked"
+  description: "Capture clicks for android:onClick=\"onGroupButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onGroupButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onMoodButtonClicked"
+  description: "Capture clicks for android:onClick=\"onMoodButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onMoodButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onIncomingInvitationsButtonClicked"
+  description: "Capture clicks for android:onClick=\"onIncomingInvitationsButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onIncomingInvitationsButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onChangeBuddyButtonClicked"
+  description: "Capture clicks for android:onClick=\"onChangeBuddyButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onChangeBuddyButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
   name: "OnClickAttributeValue_onCommunityButtonClicked"
   description: "Capture clicks for android:onClick=\"onCommunityButtonClicked\""
   target {
     overrides {
       class_name: "Landroid/app/Activity;"
       name: "onCommunityButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onInviteButtonClicked"
+  description: "Capture clicks for android:onClick=\"onInviteButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onInviteButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onTauntButtonClicked"
+  description: "Capture clicks for android:onClick=\"onTauntButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onTauntButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onBuddyMessageClosed"
+  description: "Capture clicks for android:onClick=\"onBuddyMessageClosed\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onBuddyMessageClosed"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onHistoryButtonClicked"
+  description: "Capture clicks for android:onClick=\"onHistoryButtonClicked\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onHistoryButtonClicked"
+      return_type: "V"
+      parameter_types: "Landroid/view/View;"
+    }
+  }
+  captures {
+    arg_index: 0
+  }
+  captures {
+    arg_index: 1
+  }
+  captures {
+    instrumented_method_name {
+    }
+  }
+  call {
+    class_name: "Lcom/heapanalytics/android/internal/HeapInternal;"
+    name: "captureClick"
+    return_type: "V"
+    parameter_types: "Landroid/app/Activity;"
+    parameter_types: "Landroid/view/View;"
+    parameter_types: "Ljava/lang/String;"
+  }
+}
+specs {
+  name: "OnClickAttributeValue_onRefreshLeaderboardButtonClickedFloor"
+  description: "Capture clicks for android:onClick=\"onRefreshLeaderboardButtonClickedFloor\""
+  target {
+    overrides {
+      class_name: "Landroid/app/Activity;"
+      name: "onRefreshLeaderboardButtonClickedFloor"
       return_type: "V"
       parameter_types: "Landroid/view/View;"
     }

@@ -1,4 +1,4 @@
-#Wed May 02 17:07:20 CEST 2018
-base.0=/Users/310194288/StudioProjects/healthytogether2/app/build/intermediates/transforms/dexMerger/debug/0
+#Wed May 09 16:57:26 CEST 2018
+base.0=/Users/Yaliang/Dropbox/++WorkingOn/+Andriod_Project/healthytogether2/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

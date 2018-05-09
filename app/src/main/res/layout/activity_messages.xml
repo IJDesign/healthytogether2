@@ -73,7 +73,7 @@
             android:background="@android:color/transparent"
             android:onClick="onTemplateButtonClicked"
             android:scaleType="fitEnd"
-            android:src="@drawable/templateicon_backup" />
+            android:src="@drawable/yc_pencil" />
 
         <EditText
             android:id="@+id/typeMessage"
