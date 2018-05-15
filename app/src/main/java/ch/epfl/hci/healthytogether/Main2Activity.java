@@ -6677,7 +6677,7 @@ Log.d("tab", tv.toString());
 		//reach.id.tue.nl
 		//Log.d("**Fid", String.valueOf(fid));
 		//Log.d("**Fid", String.valueOf(virtual_Fid));
-		String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps_history_json.php?uid=" + uid;
+		String url = "https://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps_history_json.php?uid=" + uid;
 			if ( fid != virtual_Fid){
 				url = url + "&fid=" + fid;
 			}
@@ -6868,7 +6868,7 @@ Log.d("tab", tv.toString());
 		final int uid = AppContext.getInstance().getUserId();
 		//final int fid = getFriendId();// AppContext.getInstance().getFriendId();
 		//reach.id.tue.nl
-		String url = "http://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps.php?uid=" + uid;
+		String url = "https://" + getResources().getString(R.string.baseurl) + "/php_HT/getdatesteps.php?uid=" + uid;
 		url=url + "&offset=" + datePivot;
 		Log.d("data", url);
 

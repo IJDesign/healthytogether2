@@ -73,7 +73,7 @@ public class ServerHelper {
 
 	private static final String TAG = ServerHelper.class.getSimpleName();
 
-	private static final String URL_PREFIX = "http://reach.id.tue.nl/php_HT/"; //
+	private static final String URL_PREFIX = "https://reach.id.tue.nl/php_HT/"; //
 	//private static final String URL_PREFIX = "http://"+ getString(R.string.baseurl)+"/php_HT/"; //reach.id.tue.nl //reach.bitnamiapp.com
 
 	public static final String URL_LOGIN = URL_PREFIX + "checklogin.php";
